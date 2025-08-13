@@ -1,0 +1,14 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  /* background-color: #1d203a; */
+  flex-direction: column;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 20px;
+  color: #ffffff !important;
+  /* background-color: #1d203a; */
+  margin-left: 250px;
+}

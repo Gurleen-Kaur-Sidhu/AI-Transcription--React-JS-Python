@@ -1,0 +1,144 @@
+.rows-per-page,
+.pagination,
+.page-item {
+  /* border: 1px solid #283851 !important; */
+  background: var(--dark-background) !important;
+}
+
+.rows-per-page label {
+  color: white !important;
+}
+
+.payment-section p {
+  color: white !important;
+}
+
+.page-link {
+  color: black;
+}
+
+.pagination li button {
+  border: 1px solid #283851 !important;
+  background: var(--dark-background) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+#admin-loginpage,
+#admin-forgetpassword {
+  height: 100vh;
+}
+
+.close-btn-admin {
+  position: absolute;
+  left: 182px;
+  background-color: #007bff;
+  color: white;
+  padding: 0px 8px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sidebar-toggler {
+  position: relative;
+}
+
+.user-dashboard-info-box {
+  border: 1px solid #283851 !important;
+  border-radius: 4px;
+}
+
+.page-link:focus {
+  background: #0151ff !important;
+  box-shadow: none;
+}
+
+.page-link:hover {
+  background: #0151ff !important;
+  box-shadow: none;
+}
+
+input.custom-date-input.form-control{
+  background: #5568fe !important;
+}
+
+/* .user-dashboard-info-box {
+  max-width: 100% !important;
+  overflow-x: auto !important; 
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; 
+} */
+
+#admin_sidebar {
+  transition: 0.3s ease;
+}
+
+#admin_content {
+  transition: 0.3s ease; 
+}
+
+@media (max-width: 768px) {
+  #admin_sidebar {
+    margin-left: -260px;
+  }
+  #admin_content {
+    margin-left: 0; 
+  }
+}
+
+
+@media (max-width: 580px) {
+  .search-bar {
+    width: 55% !important;
+  }
+
+  .pagination-rows {
+    gap: 0 !important;
+  }
+
+  .content-top-btn {
+    margin-left: 5px;
+  }
+
+  .forget-page,
+  .login-page {
+    padding: 40px 10px;
+  }
+
+  .user-dashboard-info-box .search-buttons {
+    flex-direction: column;
+  }
+
+  .payment-section .search-bar {
+    margin-bottom: 20px !important;
+  }
+
+  .status-filter-buttons {
+    display: flex;
+  }
+
+  .row-pagination-col {
+    display: block !important;
+  }
+
+  select#rowsPerPage {
+    width: 45px;
+  }
+
+  .search-addbutton{
+    flex-direction: column !important;
+    align-items: start !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .search-bar {
+    width: 100% !important;
+  }
+}

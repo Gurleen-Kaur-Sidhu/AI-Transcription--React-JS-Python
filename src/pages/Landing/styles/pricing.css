@@ -1,0 +1,92 @@
+/* Pricing Cards */
+
+.card {
+  border-radius: 12px;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.price-card .card-body {
+  padding: 50px 30px;
+}
+
+.pricing-section .card:hover,
+.testimonial-section .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* Price */
+.card h2 {
+  font-size: 2.5rem;
+  color: #0056b3;
+}
+
+.card h2 small {
+  font-size: 1rem;
+}
+
+/* Button Styling */
+.card button {
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.card button.btn-primary {
+  border: none;
+}
+
+.card button.btn-success:hover {
+  background-color: #0d774f;
+}
+.card button.btn-success {
+  background-color: #098355;
+  border: none;
+}
+.card button.btn-danger {
+  background-color: #ff6f61;
+  border: none;
+}
+.card-title.h5 h5 {
+  font-size: 30px;
+}
+.card-subtitle.h6 h6 {
+  font-size: 16px;
+}
+
+.CardNumberField-input-wrapper .ElementsApp .InputElement.is-invalid{
+  font-size: 16px;
+  color: white !important;
+}
+
+/* Responsive Spacing */
+@media (max-width: 767.98px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .price-card .card-body {
+    padding: 20px 10px;
+  }
+}
+
+ul.list-unstyled {
+  padding: 30px 0;
+}
+
+ul.list-unstyled li strong {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.price-card.card:hover {
+  border-color: #010a1d !important;
+  box-shadow: 0 0 15px 10px #010a1d !important;
+}

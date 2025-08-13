@@ -1,0 +1,56 @@
+.audiolist-card {
+  padding: 15px 0px;
+}
+
+#downloadTextBtn,
+#copyBtn {
+  background-color: blue;
+}
+
+#downloadTextBtn:hover,
+#copyBtn:hover {
+  background-color: rgb(61, 61, 250);
+  color: white;
+}
+
+.pagination-buttons {
+  border: 1px solid #283851 !important;
+  background: var(--dark-background) !important;
+  color: white;
+  border-radius: 9px;
+}
+
+.page-button {
+  border: 1px solid #283851 !important;
+  background: var(--dark-background) !important;
+  /* border-radius: 0 !important; */
+}
+
+.page-button1 {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border: 1px solid #283851 !important;
+  background: var(--dark-background) !important;
+}
+
+.page-button2 {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border: 1px solid #283851 !important;
+  background: var(--dark-background) !important;
+}
+
+.pagination-block{
+  margin: 20px;
+}
+
+@media (max-width: 580px) {
+  .audiolist-card {
+    margin-top: 15px;
+  }
+
+  .pagination-block{
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+}
