@@ -1,13 +1,20 @@
-# React + Vite
+# 🎙 AI Transcription Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that allows users to upload audio and instantly convert speech into text using AI-powered speech recognition. Users can view, edit, and download transcripts, making it easy to repurpose spoken content for documents, captions, or notes.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Upload audio in multiple formats
 
+Automatic transcription using AI-based speech recognition
 
-# audio_file.py
+Download transcripts in text format
 
-This file have route 'upload_audio', which uses post method to take audio file extension of 'mp3', 'wav', 'flac', 'ogg', 'aac' and store that file in local system and also in database(mongodb) with different attributes like audio_name,local_filename,upload_time and transcribed_text. While local_filename is renamed filename with uploaded timestamp and audio_name is a real file name.
+Responsive design for seamless use on desktop and mobile devices
+
+Secure file handling and efficient processing
+
+# 🛠 Tech Stack
+
+Frontend: React.js
+Backend: Python (FastAPI/Flask), Speech Recognition APIs/Models
