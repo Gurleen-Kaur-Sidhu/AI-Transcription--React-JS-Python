@@ -18,6 +18,4 @@ Secure file handling and efficient processing
 
 Frontend: React.js
 
---
-
 Backend: Python (FastAPI/Flask), Speech Recognition APIs/Models
