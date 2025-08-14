@@ -1,0 +1,152 @@
+a {
+  text-decoration: none;
+}
+
+.login-page {
+  padding: 80px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa; /* Light gray for background */
+}
+
+label {
+  color: #000;
+}
+
+img.input-icon {
+  width: 25px;
+  height: 100%;
+}
+
+.input-svg svg {
+  width: 20px;
+}
+
+p.text-danger {
+  margin-top: 5px;
+}
+
+.form-div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.error-placeholder {
+  min-height: 20px; /* Keeps space consistent for errors */
+}
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d6efd; /* Primary blue */
+}
+
+.form-right h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+@media (max-width: 767.98px) {
+  .login-page {
+    padding: 40px 15px;
+  }
+  .form-right {
+    display: none; /* Hide right section on small screens */
+  }
+
+  .form-div {
+    box-shadow: none;
+    background: transparent;
+  }
+}
+
+label.form-check-label {
+  color: #fff;
+}
+
+.card.form-col p {
+  color: #fff;
+}
+
+input.form-control {
+  height: 50px;
+  color: #fff;
+}
+
+input.form-control::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  color: #fff !important;
+}
+
+/* sweetalert */
+#swal2-title {
+  padding: 0px;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+#swal2-html-container {
+  padding: 0px;
+  font-size: 16px;
+}
+
+.swal2-actions {
+  margin: 10px;
+}
+
+.swal2-icon {
+  margin-top: 5px;
+}
+
+.swal2-popup {
+  padding: 10px;
+  padding-bottom: 0px;
+  width: 25em;
+}
+
+.swal2-styled {
+  padding: 5px 10px;
+}
+
+.swal2-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.swal2-x-mark-line-left {
+  left: 8px !important;
+  transform: rotate(36deg) !important;
+  top: 21px !important;
+  width: 30px !important;
+}
+
+.swal2-x-mark-line-right {
+  right: 8px !important;
+  transform: rotate(-38deg) !important;
+  top: 21px !important;
+  width: 30px !important;
+}
+
+.swal2-success-line-long {
+  top: 23px !important;
+  right: 0px !important;
+  width: 30px !important;
+}
+
+.swal2-success-line-tip {
+  top: 28px !important;
+  left: 7px !important;
+  width: 16px !important;
+}
+
+.swal2-success-fix,
+.swal2-success-circular-line-right,
+.swal2-success-circular-line-left {
+  height: 0px !important;
+}

@@ -1,0 +1,72 @@
+.account-section h3 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.account-section h4 {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.account-section p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white !important;
+}
+
+.account-section li {
+  color: white;
+  font-size: 15px;
+}
+
+.account-section .form-label {
+  font-weight: 500;
+}
+
+.account-section .list-group-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: #081022;
+}
+
+.account-section .account-image {
+  object-fit: cover;
+  object-position: center;
+  height: 145px;
+  width: 145px;
+}
+
+.account-section .transactions-card .list-group-item {
+  padding: 15px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.account-section h6 {
+  font-size: 15px;
+}
+
+.account-section .form-control:disabled {
+  background-color: var(--clr-silver);
+  border: none;
+}
+
+.account-section .form-control {
+  background-color: var(--clr-silver);
+  border: none;
+}
+
+.account-section input.form-control:focus {
+  border: none !important;
+  box-shadow: none;
+}
+
+h4 {
+  text-decoration: none;
+}
+
+.admin-logout{
+    border: 1px solid #283851 !important;
+    border-radius: 5px;
+}

@@ -1,0 +1,134 @@
+/* sidebar */
+#admin_sidebar.sidebar {
+  background-color: var(--clr-primary);
+  padding: 32px 20px;
+  width: 260px;
+  height: 100%;
+  transition: var(--transition-default);
+  z-index: 999;
+  overflow-y: auto; 
+}
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 16px;
+}
+.info-name {
+  font-weight: 500;
+}
+.info-img {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.info-name {
+  font-size: 19px;
+  color: var(--clr-white);
+  text-transform: uppercase;
+}
+.navigation {
+  margin-top: 28px;
+  /* height: 600px; */
+  height: 100%;
+}
+.sidebar-change {
+  margin-left: -260px;
+}
+
+#admin_sidebar .nav-item {
+  margin-bottom: 10px;
+  margin-right: 4px;
+}
+.nav-link {
+  display: block;
+  height: 44px;
+  border-radius: 8px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex;
+  padding: 6px 14px !important;
+  column-gap: 12px;
+  letter-spacing: 0.03em;
+  border: 1px solid transparent;
+  transition: var(--transition-default);
+}
+
+span.nav-link-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.nav-link-icon {
+  margin-right: 3px;
+}
+.nav-link-text {
+  text-transform: capitalize;
+}
+
+span.nav-link-text:hover {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-list {
+  padding-left: 0px !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  border: none !important;
+}
+
+#admin_sidebar .nav-item {
+  width: 100%;
+}
+
+#admin_sidebar .nav-item:hover {
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+
+#admin_sidebar .sidebar-icons {
+  height: 20px;
+  width: 20px;
+  line-height: 15px;
+}
+
+#admin_sidebar a {
+  text-decoration: none !important;
+}
+
+#admin_sidebar .admin-footer-item {
+  line-height: 22px;
+  font-weight: 500;
+  padding: 6px 14px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* position: relative; */
+  /* bottom: 20px; */
+  /* width: 85%; */
+}
+
+#admin_sidebar .admin-footer-item:hover {
+  background: #8d8d8d;
+  border-radius: 5px;
+}
+
+#admin_sidebar.sidebar::-webkit-scrollbar {
+  width: 0; 
+  height: 0;
+}
+
+#admin_sidebar.sidebar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+

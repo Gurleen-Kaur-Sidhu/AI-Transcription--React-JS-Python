@@ -1,0 +1,41 @@
+.account-section input.form-control {
+    height: 42px;
+    color: #fff;
+}
+
+.account-section .change-password-btn{
+    width: 31% !important;
+}
+
+@media (max-width:649px){
+    .account-section .change-password-btn{
+        width: 50% !important;
+    }
+}
+
+@media (max-width:580px){
+    .account-section .info-column{
+        flex-direction: column;
+    }
+
+    .account-section .info-column .form-label{
+        width:100% !important;
+        margin-bottom: 0 !important;
+    }
+
+    .account-section .info-column .form-control{
+        width:100% !important
+    }
+
+    .account-section .change-password-btn{
+        margin-left: 12px !important;
+    }
+}
+
+@media (max-width:425px){
+    .account-section .change-password-btn{
+        width: 70% !important;
+    }
+}
+
+
