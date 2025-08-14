@@ -17,4 +17,7 @@ Secure file handling and efficient processing
 # 🛠 Tech Stack
 
 Frontend: React.js
+
+--
+
 Backend: Python (FastAPI/Flask), Speech Recognition APIs/Models
