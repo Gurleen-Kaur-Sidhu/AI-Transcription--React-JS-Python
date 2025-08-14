@@ -23,7 +23,7 @@ Frontend: React.js
 Backend: Python (FastAPI/Flask), Speech Recognition APIs/Models
 
 # Home Page Design
-<img src="public/home-images/homi.png" alt="Home Page" width="400">
+<img src="public/landingimages/homi.png" alt="Home Page" width="400">
 
 # Admin Dashboard
-<img src="public/home-images/dashi.png" alt="Home Page" width="400">
+<img src="public/landingimages/dashi.png" alt="Home Page" width="400">
